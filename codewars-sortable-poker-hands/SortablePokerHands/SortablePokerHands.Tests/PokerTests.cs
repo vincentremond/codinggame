@@ -13,7 +13,8 @@ namespace SortablePokerHands.Tests
         public void PokerHandSortTest()
         {
             // Arrange
-            var expected = new List<PokerHand> {
+            var expected = new List<PokerHand>
+            {
                 new PokerHand("KS AS TS QS JS"),
                 new PokerHand("2H 3H 4H 5H 6H"),
                 new PokerHand("AS AD AC AH JD"),
@@ -36,7 +37,10 @@ namespace SortablePokerHands.Tests
             actual.Sort();
             // Assert
             for (var i = 0; i < expected.Count; i++)
-                Assert.AreEqual(expected[i], actual[i], "Unexpected sorting order at index {0}", i);
+            {
+                Assert.That(actual[i], Is.EqualTo(expected[i]), $"Unexpected sorting order at index {i}");
+                ;
+            }
         }
     }
 }

@@ -6,6 +6,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortablePokerHands", "Sorta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortablePokerHands.Tests", "SortablePokerHands.Tests\SortablePokerHands.Tests.csproj", "{96CE90C4-F5C0-4297-ADC2-6586409BFBF8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{DD52FB68-9150-433C-A1A5-937E263212A9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
