@@ -1,0 +1,15 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/.build/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="paket.dependencies" />
+    <File Path="paket.lock" />
+  </Folder>
+  <Project Path="SortablePokerHands.Tests/SortablePokerHands.Tests.csproj" />
+  <Project Path="SortablePokerHands/SortablePokerHands.csproj" />
+</Solution>
